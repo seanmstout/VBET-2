@@ -1,0 +1,21 @@
+network: /workspaces/VBET-2/VBET_Inputs/NHDFlowline_filtere_Dissolve.shp 
+dem: /workspaces/VBET-2/VBET_Inputs/VBET_DEM_ProjectRast_1.tif 
+output: /workspaces/VBET-2/Output 
+scratch workspace: /workspaces/VBET-2/VBET_scratch 
+large drainage area threshold: 250 
+medium drainage area threshold: 25 
+large slope threshold: 3 
+medium slope threshold: 4 
+small slope threshold: 5 
+large buffer: 500 
+medium buffer: 200 
+small buffer: 80 
+minimum buffer: 10 
+drainage area field: None 
+large depth: 3 
+medium depth: 2 
+small depth: 1.5 
+
+VBET-2 version 2.1.2
+
+Started: 03/10/2024 21:04:29 
